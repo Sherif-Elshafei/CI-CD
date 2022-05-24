@@ -12,6 +12,13 @@ jobs:
   build: 
     runs-on: ubuntu-latest
     steps:
-      - name: running the file first
-        run: python circles.py
+    
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+        
+    - name: running the file first
+      run: python circles.py
+      
     
