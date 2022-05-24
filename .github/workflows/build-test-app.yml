@@ -11,5 +11,7 @@ on:
 jobs:
   build: 
     runs-on: ubuntu-latest
-    run: python circles.py
+    steps:
+      - name: running the file first
+        run: python circles.py
     
