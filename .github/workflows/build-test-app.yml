@@ -13,10 +13,10 @@ jobs:
     runs-on: self-hosted
     steps:
     
-    - name: setup python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.8'
+    #- name: setup python
+    #  uses: actions/setup-python@v2
+    #  with:
+    #    python-version: '3.8'
         
     - name: run the app
       run: |
