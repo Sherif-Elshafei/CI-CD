@@ -20,6 +20,5 @@ jobs:
         
     - name: run the app
       run: |
-        python circles.py
-      
-    
+        pwd
+        
