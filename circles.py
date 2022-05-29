@@ -4,7 +4,7 @@ from math import pi
 def circle_area(radius):
     return pi*(radius**2)
 
-print(circle_area(10))
+prin(circle_area(10))
 
 
 
