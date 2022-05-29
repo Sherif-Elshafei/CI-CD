@@ -1,0 +1,30 @@
+#this workflow will build a python file then 
+#run a unit test routine on the file
+
+name: CI
+on:
+  push: 
+    branches: [main]
+  pull_request:
+    branches: [main]
+    
+jobs:
+  build: 
+    runs-on: self-hosted
+    steps:
+    
+    #- name: setup python
+    #  uses: actions/setup-python@v2
+    #  with:
+    #    python-version: '3.8'
+        
+    - name: run the app
+      run: |
+        cd /home/sherif/workspace/DirToRunApps
+        rm * -rf
+        git clone https://github.com/Sherif-Elshafei/my-practice.git
+        cd my-practice
+        pwd
+        ls
+        python circles.py
+        
