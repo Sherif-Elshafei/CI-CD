@@ -23,5 +23,5 @@ jobs:
         rm * -rf
         git clone https://github.com/Sherif-Elshafei/CICD.git
         cd CICD
-        python -m unittest test_circles2.py
+        python3 -m unittest test_circles2.py
         
