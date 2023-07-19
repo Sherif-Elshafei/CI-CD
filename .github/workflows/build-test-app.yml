@@ -15,7 +15,7 @@ jobs:
 #       with:
 #         python-version: '3.8'
   build: 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
     - name: run the app
       run: |
