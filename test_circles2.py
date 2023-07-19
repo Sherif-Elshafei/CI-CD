@@ -19,4 +19,4 @@ class TestCircleArea(unittest.TestCase):
                 self.assertRaises(TypeError, circle_area, "circle")
 
 if __name__ == '__main__':
-        unittest.main()
+        unittest.test_circle2()
