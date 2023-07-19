@@ -15,7 +15,7 @@ jobs:
 #       with:
 #         python-version: '3.8'
   build1: 
-    runs-on: self-hosted
+    runs-on: [self-hosted, linux]
     steps:
     - name: run the app
 #     - run: |
@@ -23,5 +23,5 @@ jobs:
     - run: rm * -rf
     - run: git clone https://github.com/Sherif-Elshafei/CICD.git
     - run: cd CICD
-    - run: python -m unittest test_circles2.py
+    - run: python3 -m unittest test_circles2.py
         
