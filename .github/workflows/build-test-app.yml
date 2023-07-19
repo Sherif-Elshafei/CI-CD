@@ -15,10 +15,10 @@ jobs:
 #       with:
 #         python-version: '3.8'
   build1: 
-    runs-on: self-hosted
+    runs-on: [self-hosted, linux]
     steps:
     - name: run the app
-      run: |
+    - run: |
         cd /home/sherif/workspace/cicd-python/
         rm * -rf
         git clone https://github.com/Sherif-Elshafei/CICD.git
