@@ -15,13 +15,13 @@ jobs:
 #       with:
 #         python-version: '3.8'
   build: 
-    runs-on: ubuntu-22.04
+    runs-on: self-hosted
     steps:
     - name: run the app
-      run: python3 -m unittest test_circles2.py
-      #cd /home/sherif/workspace/cicd-python/
-      #rm * -rf
-      #git clone https://github.com/Sherif-Elshafei/CICD.git
-      #cd CICD
-        
+      run: |
+        cd /home/sherif/workspace/cicd-python/
+        rm * -rf
+        git clone https://github.com/Sherif-Elshafei/CICD.git
+        cd CICD
+        python3 -m unittest test_circles2.py
         
