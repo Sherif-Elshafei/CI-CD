@@ -18,10 +18,10 @@ jobs:
     runs-on: [self-hosted, linux]
     steps:
     - name: run the app
-#     - run: |
-    - run: cd /home/sherif/workspace/cicd-python/
-    - run: rm * -rf
-    - run: git clone https://github.com/Sherif-Elshafei/CICD.git
-    - run: cd CICD
-    - run: python3 -m unittest test_circles2.py
+      run: |
+        cd /home/sherif/workspace/cicd-python/
+        rm * -rf
+        git clone https://github.com/Sherif-Elshafei/CICD.git
+        cd CICD
+        python3 -m unittest test_circles2.py
         
