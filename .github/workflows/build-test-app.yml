@@ -9,15 +9,14 @@ on:
     branches: [main]
     
 jobs:
-  build: 
+#   script:
+#     - name: setup python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: '3.8'
+  build1: 
     runs-on: self-hosted
     steps:
-    
-    #- name: setup python
-    #  uses: actions/setup-python@v2
-    #  with:
-    #    python-version: '3.8'
-        
     - name: run the app
       run: |
         cd /home/sherif/workspace/cicd-python/
