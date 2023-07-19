@@ -19,7 +19,7 @@ jobs:
     steps:
     - name: run the app
       run: |
-        cd /home/sherif/workspace/cicd-python/
+        cd /home/sherif/workspace/cicd-python/my-practice/
         rm * -rf
         git clone https://github.com/Sherif-Elshafei/CICD.git
         cd CICD
