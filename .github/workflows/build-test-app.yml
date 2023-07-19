@@ -22,7 +22,7 @@ jobs:
       run: |
         cd /home/sherif/workspace/cicd-python/
         rm * -rf
-        git clone https://github.com/Sherif-Elshafei/my-practice.git
-        cd my-practice
+        git clone https://github.com/Sherif-Elshafei/CICD.git
+        cd CICD
         python -m unittest test_circles2.py
         
