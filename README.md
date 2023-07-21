@@ -5,4 +5,3 @@
 3. Write your production code and save it as *myFile*.py
 4. Follow the guidelines provided in the example file to implement the unittest code and save it as test_*myFile*.py
 5. Push both files to the main branch. If you want to push to another branch you will have to modify the .yml file provided.
-6. 
