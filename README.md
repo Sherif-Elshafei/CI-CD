@@ -2,6 +2,8 @@
 
 
 ## Introduction
+Here I showcase my proficiency in developing a test automation pipeline.
+
 This is an example of the combined practices of continuous integration (CI) and continuous delivery (CD). CI-CD is a subset of prcesses of the DevOps process. I cover the development processes circled in red in the following diagram.
 ![devops-png-9](https://github.com/Sherif-Elshafei/CI-CD/assets/4324447/49c86965-3444-4dde-9a8a-52b6562ae9a2)
 
