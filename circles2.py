@@ -10,3 +10,5 @@ def circle_area(radius):
         print("The radius must be of type float or integer")
 
     return pi*(radius**2)
+
+print("hello python - circle2.py file. this is to indicate that the code in the file has been executed")
