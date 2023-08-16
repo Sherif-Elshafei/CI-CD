@@ -11,4 +11,4 @@ def circle_area(radius):
 
     return pi*(radius**2)
 
-print("hello python - circle2.py file. this is to indicate that the code in the file has been executed")
+print("hello python - circle2.py file. this is to indicate that the code in the file, located remotely on github, has been executed")
