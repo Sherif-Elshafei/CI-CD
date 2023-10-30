@@ -9,6 +9,6 @@ def circle_area(radius):
         raise TypeError("The radius must be of type float or integer")
         print("The radius must be of type float or integer")
 
-    return pi*(radius**2)
+    return pi*(radius**3)
 
 print("hello python (with schedule) - circle2.py file. this is to indicate that the code in the file, located remotely on github, has been executed")
